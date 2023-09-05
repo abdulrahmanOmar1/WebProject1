@@ -1,0 +1,62 @@
+
+body{
+    background-image: url(Registerp.png);
+    background-size: cover;
+}
+
+.box{
+    font-size: 18px;
+    color: #333;
+    font-weight: bold;
+    margin-bottom: 10px;
+    position: absolute;
+    top:3px;
+    left: 31%;
+} 
+
+#sendButtom{
+    width: 100%;
+    background-color: #6dd8e9;
+}
+
+#sendButtom:hover{
+    color: rgba(255, 255, 255, 0.865);
+}
+
+table{
+    
+    border-collapse: collapse;
+}
+
+table thead{
+    border: solid 1pt#00ddff;
+    background-color: #01dfa0;
+
+}
+
+td{
+    border: solid 1pt#00ddff;
+    padding:15pt;
+
+}
+
+tbody tr{
+    background-color: #a8e6ec;
+}
+
+tbody tr:hover{
+    background-color: #6dd8e9;
+    color: rgb(0, 0, 0);
+}
+
+.msgserror{
+    color: rgb(255, 5, 5);
+    font-size: 15px;
+} 
+
+#label {
+    font-size: 18px;
+    color: #333;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }

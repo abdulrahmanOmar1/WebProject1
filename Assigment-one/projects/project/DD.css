@@ -1,0 +1,119 @@
+body{
+margin: 0;
+ background-color: #7c86e1; 
+}
+
+a:link, a:visited {
+    color: #000000;
+}
+
+header {
+    background-color: #303f9f;
+    height: 5em;
+    }
+    
+
+    header a,strong{
+        position: relative;
+        padding: 0.5em;
+        top: -15px;
+        color:#9dc936 ;
+    }
+    
+    header img{
+        height: 80px;
+    }
+
+    header b {
+        position: absolute;
+        top: 60px;
+        left:1380px ;
+      }
+
+
+div#container {
+position: relative;
+min-height: 75vh;
+
+}
+
+nav {
+
+color: #9dc936;
+width: 13%;
+height: 97.3%;
+background-color: #4d5aaf;
+/* padding: 3;
+position: reliteve;
+left: -16px;
+top: 0;
+float: left; */
+padding: 0.5em;
+position: absolute;
+left: 0;
+top: 0;
+float: left;
+}
+
+nav li{
+    margin-top: 10px;
+}
+
+div#main {
+    padding: 0.5em;
+    margin-left:30%;
+}
+
+footer {
+color: rgb(0, 0, 0);
+background-color: #303f9f;
+padding: 0.5em;
+}
+
+footer img{
+    height: 50px;
+}
+
+
+div #main table {
+    border-collapse: collapse;
+    width: 700px;
+}
+
+div #main thead {
+    color: rgb(31, 31, 31);
+    background-color: #c5e168;
+    border: solid 1pt black;
+  }
+
+div #main td{
+    border: solid 1pt black;
+    padding: 10px;
+}
+
+div #main tbody{
+    background-color: #ffffff;
+}
+
+div #main tbody tr:hover{
+    background-color: #bdea4c;
+    color: rgb(0, 0, 0);
+}
+header #profilepic{
+    position: absolute;
+    right: 100px;
+}
+
+div #sendButtom {
+    width: 30%;
+    background-color: #ff0000;
+    color: white;
+    padding: 10px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+ div #sendButtom:hover {
+    background-color: #59c2cd;
+  }
+

@@ -1,0 +1,41 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="descriptin.css">
+    </head>
+    <body>
+            <header>
+            <img src="WebLogo.png" alt="WebLogo">
+            <strong>THE KING</strong>
+            <a href="logout.php">Log Out</a>
+            <a href="aboutus.html">About Us</a>
+            </header>
+            <nav>
+            <ul>
+                <li>
+                    <a href="dashboard.html">Dashboard</a>
+                </li>
+                <li>
+                    <a href="create.html">Create Team</a>
+                </li>
+                <li>
+                    <a href="edit.html">Edit Team</a>
+                </li>
+            </ul>
+            </nav>
+                <div id="main">
+                        <p>Team Details</p>
+                        <a href="dashboard.php">dashboard</a><br><br>
+                        <table border="1">
+                            <thead>
+                                <th>Team Name</th>
+                                <th>Skill Level</th>
+                                <th>Game Day:</th>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>'.$name.'</td>
+                                    <td>'.$skill.'</td>
+                                    <td>'.$game_day.'</td>
+                                </tr>
+                            </tbody>
+                        </table>

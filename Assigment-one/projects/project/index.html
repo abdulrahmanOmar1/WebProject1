@@ -1,0 +1,83 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+
+    <title>THE KING page</title>
+</head>
+<body>
+    <header>
+        <img src="index photo.jpg" alt="Logo" height="150px">
+    </header>
+    <main>
+        <h2>Welcome to THE KING</h2>
+        <p>
+            The KING Football Team Manager is a web application developed for managing football teams specifically for the Birzeit University Faculty of Engineering and Technology. This user-friendly application allows users to register, login, create teams, view team details, edit team information, and delete teams.
+        </p>
+        <h3>Requirements:</h3>
+        <ol>
+            <li>
+                <h4>User Registration and Login:</h4>
+                <ul>
+                    <li>The application has a registration page where users can create an account.</li>
+                    <li>The registration form includes fields for username, email, password, and confirm password.</li>
+                    <li>The registration form is validated to ensure all required fields are filled correctly.</li>
+                    <li>Users can log in using their email and password.</li>
+                    <li>Upon successful login, users will be redirected to the dashboard page.</li>
+                    <li>Sessions are used to welcome the logged-in or registered user.</li>
+                </ul>
+            </li>
+            <li>
+                <h4>Dashboard Page:</h4>
+                <ul>
+                    <li>The dashboard page displays a table with four columns: Team name, Skill of the team (ranging from 1 to 5), the number of players in the team, and the Game Day for that team.</li>
+                    <li>The dashboard page includes a button that allows users to create new teams.</li>
+                    <li>Clicking on a team name in the table redirects the user to the team details page for that specific team.</li>
+                </ul>
+            </li>
+            <li>
+                <h4>Create New Team:</h4>
+                <ul>
+                    <li>The create new team page contains a form for users to input the team name, team skill level, and Game Day.</li>
+                    <li>The new team is created and added to the dashboard table upon submitting the form.</li>
+                    <li>After creating the team, users can return to the dashboard page by clicking on the dashboard link.</li>
+                </ul>
+            </li>
+            <li>
+                <h4>Team Details Page:</h4>
+                <ul>
+                    <li>The team details page displays information about the selected team, including team name, skill level, game day, and the names of players in the team.</li>
+                    <li>Users can return to the dashboard page by clicking on the dashboard link.</li>
+                    <li>Users who created the team have the option to edit the team information or delete the team.</li>
+                    <li>When the user is in the Team Details page, the navigation includes an "Add Player" link. Users can add new players to the team using a simple form that includes an input field for player names and an add button.</li>
+                </ul>
+            </li>
+            <li>
+                <h4>Edit Team Page:</h4>
+                <ul>
+                    <li>The edit team page displays a pre-filled form with the selected team's information in an editable format.</li>
+                    <li>Users can modify the team's name, skill level, and game day within the form.</li>
+                    <li>After making the desired changes, users can submit the form to update the team's information.</li>
+                    <li>The edit team page also provides a delete link to allow users to delete the team.</li>
+                    <li>Clicking on the delete link removes the team and redirects the user to the dashboard.</li>
+                </ul>
+            </li>
+        </ol>
+    </main>
+    <hr>
+    <nav>
+        <ol>
+            <li>Create an account:
+                <a href="Registration.php">Sign Up</a>
+            </li>
+            <li>Already have an account?
+                <a href="login.php">Log In</a>
+            </li>
+        </ol>
+    </nav>
+</body>
+</html>
